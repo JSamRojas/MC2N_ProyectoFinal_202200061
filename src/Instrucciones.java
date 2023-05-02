@@ -31,8 +31,8 @@ public class Instrucciones extends JPanel implements ActionListener {
         TEXTO = "1. Presione Clic izquierdo sobre el plano para crear un vertice "+
                 "2. Presione Clic derecho sobre un vertice y luego sobre el siguiente donde desea crear la arista " +
                 "3. Cuando su grafo este listo, presione el boton para encontrar los caminos " +
-                "5. Si desea mover alguna arista de lugar, puede hacerlo manteniendo el clic izquierdo sobre la misma " +
-                "4. Si no hay ningun grafo ingresado, la aplicacion dara error";
+                "4. Si desea mover alguna arista de lugar, puede hacerlo manteniendo el clic izquierdo sobre la misma " +
+                "5. Si no hay ningun grafo ingresado, la aplicacion dara error";
 
         BtnBuscarCaminos = new JButton("Encontrar Caminos");
         BtnBuscarCaminos.setBounds(50,300,300,50);
